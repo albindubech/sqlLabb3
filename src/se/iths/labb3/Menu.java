@@ -46,10 +46,6 @@ public class Menu {
         0. Avsluta programmet""");
     }
 
-//    private int readChoice() {
-//        return functions.verifyInteger("Skriv ditt val: ");
-//    }
-
     public static void main(String[] args) throws SQLException {
         Menu menu = new Menu();
         menu.run();
